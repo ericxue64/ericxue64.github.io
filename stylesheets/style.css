@@ -1,0 +1,99 @@
+/* 
+
+COLOR USED
+
+#ffffff
+#D9FAFF 226 250 255
+#00BBF0 106 185 238
+#005792 50 89 143
+#00204A  18 38 75
+#EBF0F6
+
+*/
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Archivo', sans-serif;
+*/
+
+
+
+/* OVERALL */
+
+html, body,
+ul, li, ol, dl, dd, dt,
+p, h1, h2, h3, h4, h5, h6,
+form, fieldset, legend, img,
+div, header, footer, section, form, input, select{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	background: #f7fbfc;
+	background-color: white;
+}
+
+body a{
+	text-decoration: none;
+	color: inherit;
+	z-index: 1000;
+}
+
+
+
+/* NAVIGATION */
+
+.nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+	background: white;
+	border-bottom: 0.5px solid rgba(0,0,0,0.2);
+}
+
+#logo_sherry_name{
+	width: 20vw;
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	margin-left: 4.5vw;
+}
+#navlist_fil{
+	display: block;
+	font-family: 'Archivo', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.navlist li~li{
+	margin-left: 1.5vw;
+}
+.navlist li:hover{
+	font-weight: 500;
+	transition-duration: 0.5s;
+}
+.resume{
+	font-family: 'Archivo', sans-serif;
+	font-size: 17px;
+	border: 1px solid #005792;
+	margin-right: 4.5vw;
+	padding: 10px;
+	color: #005792;
+	font-weight: 500;
+}
+.resume:hover{
+	background: rgba(50, 88, 143, 0.8);
+	color: white;
+	transition-duration: 1s;
+}

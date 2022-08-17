@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C. Xue | Fall Data Challenge</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" media="screen and (min-width: 1000px)" href="../stylesheets/ProjectWidescreen.css">
+	<link rel="stylesheet" media="screen and (max-width: 999px)" href="../stylesheets/ProjectSmallscreen.css">
+
+	<link rel="stylesheet" media="screen and (min-width: 1000px)" href="../stylesheets/StyleWidescreen.css">
+	<link rel="stylesheet" media="screen and (max-width: 999px)" href="../stylesheets/StyleSmallscreen.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="icon" type="x-ico" href="../image/icon.ico" />
+</head>
+<body>
+
+	<script type="text/javascript">
+		function opneMenu() {
+		  var x = document.getElementById("navlist_fil");
+		  if (x.style.display == "flex") {
+		  	x.style.display = "none";
+		  }
+		  else{
+		  	x.style.display = "flex";
+		  }
+
+		}
+
+		function closeMenu() {
+		  var x = document.getElementById("navlist_fil");
+		  if (x.style.display == "flex") {
+		  	x.style.display = "none";
+		  }
+		}
+	</script>
+
+	 
+<section class="content">
+	<section class="nav">
+
+		<section class="name_eric">
+			<a href="../index.html#home"><span id="logo_sherry_name">CHEN XUE</span></a>
+		</section>
+
+		<section class="navlist" id="navlist_fil">
+			<a href="javascript:void(0);" id="menu_close" onclick="closeMenu()"></a>
+			<li><a href="../index.html#home" onclick="closeMenu()">HOME</a></li>
+			<li><a href="../index.html#about" onclick="closeMenu()">ABOUT</a></li>
+			<li><a href="../index.html#skills" onclick="closeMenu()">SKILLS</a></li>
+			<li><a href="../index.html#pj" onclick="closeMenu()">PROJECTS</a></li>
+			<li><a href="../index.html#we" onclick="closeMenu()">WORK EXPERIENCE</a></li>
+			<li><a href="../index.html#hobbies" onclick="closeMenu()">HOBBIES</a></li>
+			<li><a href="../index.html#contact" onclick="closeMenu()">CONTACT</a></li>
+		</section>
+
+		<a href="javascript:void(0);" class="menu_icon" onclick="opneMenu()"></a>
+
+		<section class="resume">
+			<a href="files/resume.pdf" target="_blank">RESUME</a>
+		</section>
+
+	</section>
+
+
+	<section class="isContent">
+
+		<section class="backMain">
+			<a href="../index.html"><< Homepage</a>
+		</section>
+
+		<section class="project_title">
+            LendingClub Loan Default Prediction, Deep Learning
+		</section>
+
+		
+
+		<section class="project_aux">
+			<!-- <p>Emory DataFest 2022</p> -->
+			<section class="pj_date">
+				<img src="../image/date.png">
+				<span>August 2022</span>
+			</section>
+<!-- 
+			<section class="pj_award">
+				<img src="../image/award.png">
+				<span>Best Insight Award</span>
+			</section> -->
+		</section>
+
+		<section class="pj_profilePic">
+			<img src="../image/LendingClub.png">
+		</section>
+
+		<section class="project_des">
+            LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California.[3] It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world's largest peer-to-peer lending platform.<br/><br/>
+            This data analysis aims to build a neural network model that can predict whether or nor a borrower will pay back their loan based on historical data on loans given out with information on whether or not the borrower defaulted. This way in the future when we get a new potential customer, we can assess whether or not they are likely to pay back the loan. 
+		</section>
+
+		<!-- <section class="project_vis">
+			<p>Key Visualizations</p>
+			<section class="project_vis_img">
+				<img src="../image/datafest1.png">
+			<img src="../image/datafest2.png">
+			<img src="../image/datafest3.png">
+			</section>
+			
+		</section> -->
+
+		<section class="project_more">
+			<p>Check out:</p>
+			<section class="links">
+				<a href="../files/LendingClub_notebook.html" target="_blank">Jupyter Notebook</a>
+			</section>
+		</section>
+
+
+		
+	</section>
+</section>
+
+</body>
+</html>

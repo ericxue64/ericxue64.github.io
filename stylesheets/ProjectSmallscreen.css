@@ -1,0 +1,99 @@
+.isContent{
+	margin-top: 80px;
+	width: 100vw;
+	font-family: 'Archivo', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.backMain{
+	text-align: left;
+	font-size: 20px;
+	opacity: 0.7;
+	position: absolute;
+	padding-top: 40px;
+	padding-left: 40px;
+	left: 0;
+	z-index: 1000000;
+}
+
+.project_title{
+	font-size: 50px;
+	margin-top: 30px;
+	padding: 40px;
+	font-weight: 500;
+	text-align: center;
+}
+.project_title span{
+	font-weight: 300;
+}
+.pj_profilePic{
+	text-align: center;
+	margin-top: 40px;
+}
+.pj_profilePic img{
+	width: 1000px;
+}
+.project_aux{
+	display: flex;
+	opacity: 0.7;
+	font-size: 20px;
+	width: 80vw;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 0px;
+	color: #005691;
+}
+.pj_date, .pj_award{
+	display: flex;
+	align-items: center;
+}
+.pj_date img, .pj_award img{
+	width: 18px;
+}
+.project_des{
+	font-size: 22px;
+	width: 900px;
+	margin-top: 30px;
+	line-height: 40px;
+	opacity: 0.9;
+}
+
+.project_vis{
+	width: 900px;
+	margin-top: 40px;
+}
+.project_vis p{
+	font-size: 30px;
+	font-weight: 600;
+}
+.project_vis_img{
+	display: flex;
+	justify-content: space-around;
+}
+.project_vis_img img{
+	width: 300px;
+}
+
+.project_more{
+	width: 900px;
+	margin-top: 40px;
+}
+
+.project_more p{
+	font-size: 30px;
+	font-weight: 600;
+}
+.links{
+	margin-top: 20px;
+	padding-bottom: 150px;
+}
+.project_more a{
+	font-size: 17px;
+	padding-top: 50px;
+	padding: 10px;
+	width: 108px;
+	background: rgba(50, 88, 143, 0.8);
+	background-image: linear-gradient(160deg, #6B7AA1,  #005691);
+	color: white;
+}

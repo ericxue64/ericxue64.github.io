@@ -1,0 +1,165 @@
+/* 
+
+COLOR USED
+
+#ffffff
+#D9FAFF 226 250 255
+#00BBF0 106 185 238
+#005792 50 89 143
+#00204A  18 38 75
+#EBF0F6
+
+*/
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Archivo', sans-serif;
+*/
+
+
+
+/* OVERALL */
+
+html, body,
+ul, li, ol, dl, dd, dt,
+p, h1, h2, h3, h4, h5, h6,
+form, fieldset, legend, img,
+div, header, footer, section, form, input, select{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	background: #f7fbfc;
+	background-color: white;
+}
+
+body a{
+	text-decoration: none;
+	color: inherit;
+	z-index: 1000;
+}
+
+
+
+/* NAVIGATION */
+
+.nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 80px;
+	z-index: 10000;
+	background: white;
+	border-bottom: 0.5px solid rgba(0,0,0,0.2);
+}
+
+#logo_sherry_name{
+	position: absolute;
+	display: block;
+	top: 22px;
+	width: 30vw;
+	font-size: 25px;
+	font-family: 'Abril Fatface', cursive;
+	margin-left: 4.5vw;
+}
+
+#navlist_fil{
+	font-family: 'Archivo', sans-serif;
+	font-size: 3.5vw;
+	font-weight: 300;
+	width: 45vw;
+	position: absolute;
+	height: 100vh;
+	background: white;
+	flex-direction: column;
+	top: 0;
+	padding-top: 10vh;
+	padding-right: 4vw;
+	text-align: right;
+	display: none;
+
+}
+#menu_close{
+	display: block;
+	height: 50px;
+	width: 50px;
+	border-top: 5px solid black;
+	border-radius: 2.5px;
+	position: absolute;
+	top: 6vh;
+	right: 8vw;
+	transform: rotate(45deg);
+}
+
+#menu_close::after{
+	content: "";
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-top: 5px solid black;
+	border-radius: 2.5px;
+	transform: rotate(90deg);
+	top: -29px;
+	left: -26px;
+}
+
+
+
+#navlist_fil li{
+	padding-top: 3vh;
+	text-align: right;
+	border-bottom: 2px solid white;
+}
+
+#navlist_fil li:hover{
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+	transition-duration: 0.2s;
+}
+
+.menu_icon{
+	display: block;
+	width: 50px;
+	height: 8px;
+	border: 5px solid rgba(0, 0, 0, 0.6);
+	border-right: none;
+	border-left: none;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+.menu_icon::after{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 8px;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+	top: 14px;
+}
+
+.resume{
+	font-family: 'Archivo', sans-serif;
+	font-size: 17px;
+	border: 1px solid #005792;
+	padding: 8px;
+	color: #005792;
+	font-weight: 500;
+	width: 100px;
+	position: absolute;
+	top: 24px;
+	right: 80px;
+	text-align: center;
+}
+.resume:hover{
+	background: rgba(50, 88, 143, 0.8);
+	color: white;
+	transition-duration: 1s;
+}
+
+

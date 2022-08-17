@@ -1,0 +1,377 @@
+#home{
+	width: 100vw;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	background: #EBF0F6;
+	align-items: flex-start;
+	font-family: 'Archivo', sans-serif;
+	padding-top: 80px;
+	flex-direction: column;
+}
+#home_text{
+	width: 100vw;
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 5vw;
+}
+#home_pic{
+	width: 100vw;
+	text-align: left;
+}
+#home_pic img{
+	padding-left: 5vw;
+	margin-top: 30px;
+	width: 250px;
+}
+#home_button{
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 128px;
+	background: rgba(50, 88, 143, 0.8);
+	background-image: linear-gradient(160deg, #6B7AA1,  #005691);
+	color: white;
+}
+
+#about{
+	padding-left: 7vw;
+	display: flex;
+	font-family: 'Archivo', sans-serif;
+	padding-top: 70px;
+}
+#about_text{
+	border-left: 10px solid #EBF0F6;
+	padding: 30px;
+	width: 78vw;
+	font-size: 20px;
+	text-align: left;
+	line-height: 40px;
+	opacity: 0.6;
+}
+
+#skills{
+	width: 100vw;
+	padding-top: 120px;
+	font-family: 'Archivo', sans-serif;
+}
+#skills_title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+.skills_all{
+	width: 100vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.skills_each{
+	display: flex;
+	align-items: center;
+	width:30vw;
+	justify-content: center;
+	margin-top: 20px;
+}
+.skill_title{
+	width: 10vw;
+	font-size: 18px;
+	font-weight: 600;
+	margin-right: 3vw;
+	text-align: right;
+}
+.pie {
+  --w:100px;
+  width: var(--w);
+  aspect-ratio: 1;
+  position: relative;
+  display: inline-grid;
+  place-content: center;
+  margin: 5px;
+  font-size: 15px;
+}
+.pie:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+}
+
+
+
+
+#pj{
+	width: 100vw;
+	padding-top: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Archivo', sans-serif;
+}
+
+.pj_title_all{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+.pj_all{
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pj_each{
+	width: 650px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+
+}
+.pj_profilePic{
+	height: 390px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #EBF0F6;;
+	border-radius: 2.5px;
+}
+.pj_profilePic img{
+	width: 640px;
+	height: 380px;
+}
+
+.pj_date_award{
+	margin-top: 20px;
+	font-size: 22px;
+	color: rgba(0,0,0,0.7);
+}
+.pj_date, .pj_award{
+	display: flex;
+	align-items: center;
+}
+
+.pj_date span, .pj_award span{
+	margin-left: 9px;
+}
+
+.pj_date img{
+	width: 22px;
+}
+
+.pj_award img{
+	width: 22px;
+}
+
+.pj_title{
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: 10px;
+	color: #005691;
+	display: flex;
+	align-items: flex-start;
+	line-height: 40px;
+}
+.pj_title span{
+	font-weight: 300;
+}
+
+.pj_desc{
+	font-size: 22px;
+	margin-top: 10px;
+	color: rgba(0, 0, 0, .6);
+	display: flex;
+	align-items: flex-start;
+	line-height: 25px;
+}
+
+.pj_rm{
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	width: 110px;
+	background: #005691;
+	color: white;
+}
+
+
+#we{
+	width: 100vw;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	padding-top: 120px;
+	font-family: 'Archivo', sans-serif;
+}
+.we_title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+
+}
+
+.line{
+	position: absolute;
+	width: 10px;
+	height: 1250px;
+	background-color: #005691;
+	margin-left: 50%;
+	margin-right: 50%;
+	border-radius: 5px;
+}
+
+.we_all{
+	display: inline-block;
+	position: relative;
+	margin-top: 40px;
+}
+
+.we_each{
+	padding: 20px;
+	width: 300px;
+	display: inline-block;
+	line-height: 28px;
+	color: rgba(0, 0, 0, .6);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+}
+.we_each p{
+	margin-top: 5px;
+}
+.we_each p:nth-child(1){
+	font-size: 20px;
+	color: #6B7AA1;
+	font-weight: 600;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+.we_each p:nth-child(2){
+	font-size: 18px;
+	font-weight: 600;
+}
+.we_all section:nth-child(even){
+	margin-left: 500px;
+}
+
+.we_all section:nth-child(odd){
+	margin-right: 500px;
+}
+
+.we_all section:nth-child(even)::before{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #005691;
+	opacity: 0.1;
+	margin-top: 40px;
+	margin-left: -250px;
+	z-index: -1;
+
+}
+
+.we_all section:nth-child(odd)::after{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #005691;
+	opacity: 0.1;
+	margin-top: -60px;
+	margin-left: 150px;
+	z-index: -1;
+}
+
+
+
+#hobbies{
+	width: 100vw;
+	font-family: 'Archivo', sans-serif;
+	padding-top: 120px;
+}
+
+.hobbies_title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.hobbies_all{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 30px;
+}
+.hobbies_each{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.hobbies_each img{
+	width: 80px;
+	padding-bottom: 30px;
+}
+.hobbies_each p{
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+.hobbies_each span{
+	color: rgba(0, 0, 0, .7);
+	font-size: 16px;
+	line-height: 20px;
+}
+
+
+#contact{
+	width: 100vw;
+	font-family: 'Archivo', sans-serif;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.contact_title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+
+}
+.contact_all{
+	margin-top: 40px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+}
+.contact_each{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact_icon img{
+	width: 30px;
+}
+.contact_name{
+	margin-left: 10px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
