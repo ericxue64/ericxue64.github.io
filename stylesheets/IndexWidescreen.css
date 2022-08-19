@@ -150,7 +150,8 @@
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
-	margin-top: 20px;
+	margin-top: 40px;
+	margin-left: 30px;
 
 }
 .pj_profilePic{
@@ -235,6 +236,7 @@
 	display: inline-block;
 	text-align: center;
 	padding-top: 120px;
+	height: 1450px;
 	font-family: 'Archivo', sans-serif;
 }
 .we_title{
@@ -243,7 +245,6 @@
 	font-weight: 600;
 	letter-spacing: 1px;
 	padding-bottom: 20px;
-
 }
 
 .line{
@@ -265,7 +266,7 @@
 .we_each{
 	padding: 20px;
 	width: 300px;
-	display: inline-block;
+	display: block;
 	line-height: 28px;
 	color: rgba(0, 0, 0, .6);
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
